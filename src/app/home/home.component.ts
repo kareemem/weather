@@ -32,7 +32,7 @@ constructor(private _HttpClient:HttpClient){}
 ngOnInit(): void {
   this.dateDay=new Date()
   this.city=document.querySelector('#search')
-  this.searchLocation("london").subscribe({
+  this.searchLocation("شبين الكوم").subscribe({
     next:(response)=>{
       console.log(response[0].lat);
           this.lat=response[0].lat
