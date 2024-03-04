@@ -1,0 +1,38 @@
+.bg-body-tertiary {
+  background-color: rgb(30, 32, 43) !important;
+}
+.navbar-brand p {
+  color: white;
+  font-size: 1rem;
+  line-height: normal;
+  font-weight: 700;
+}
+.navbar-brand p span {
+  font-weight: 300;
+  font-size: 0.625rem;
+  line-height: 0.9375rem;
+  color: rgb(191, 193, 200);
+}
+.nav-item a {
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  font-weight: 600;
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.nav-item a:hover {
+  color: rgb(0, 154, 216) !important;
+  padding: 5px 25px;
+  border: 2px solid rgb(0, 154, 216);
+  border-radius: 30px;
+}
+.hoverActive {
+  color: rgb(0, 154, 216) !important;
+  padding: 5px 25px;
+  border: 2px solid rgb(0, 154, 216);
+  border-radius: 30px;
+}
+.navbar-toggler {
+  background-color: rgb(0, 154, 216);
+}

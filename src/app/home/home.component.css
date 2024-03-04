@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+.parent {
+  background-color: rgb(30, 32, 43);
+  padding-bottom: 14rem;
+}
+.imgCover {
+  background-image: url("../../assets/banner.png");
+  background-position: center center;
+  background-size: cover;
+}
+form {
+  background-color: rgb(30, 32, 43);
+}
+
+form input {
+  background-color: rgb(30, 32, 43);
+  color: white;
+  padding-left: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.btn {
+  background-color: rgb(0, 154, 216) !important;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: white !important;
+  line-height: normal;
+  border-color: rgb(0, 154, 216) !important;
+}
+#search:focus {
+  outline: none;
+}
+.today {
+  background-color: rgb(59, 64, 87);
+  border-top-left-radius: 0.75rem;
+  border-end-start-radius: 0.75rem;
+}
+.dateDay {
+  background-color: rgb(45, 48, 61);
+  border-top-left-radius: 0.75rem;
+}
+.dateDay h6,
+.dateTomorrow h6 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.3125rem;
+  color: rgb(191, 193, 200);
+}
+.dataWeather p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.6875rem;
+  color: rgb(191, 193, 200);
+}
+.dataWeather h6 {
+  font-size: 5.625rem;
+  font-weight: 700;
+  line-height: 8.4375rem;
+  color: white;
+}
+.weatherCondition {
+  font-size: 0.875rem !important;
+  line-height: 1.3125rem !important;
+  font-weight: 300 !important;
+  color: rgb(0, 154, 216) !important;
+}
+ul {
+  list-style-type: none;
+}
+.row {
+  transform: translateY(50%);
+}
+
+@media screen and (max-width: 770px) {
+  .row {
+    transform: translateY(5%);
+  }
+  .parent {
+    padding-bottom: 0;
+  }
+}
+
+ul li {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: rgb(191, 193, 200);
+}
+.dateTomorrow {
+  background-color: rgb(34, 37, 48);
+}
+.tomorrow {
+  background-color: rgb(38, 41, 54);
+}
+.dataTomorrow h6,
+.dataAfterTomorrow h6 {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+.dataTomorrow p,
+.dataAfterTomorrow p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  color: rgb(191, 193, 200);
+}
+
+.afterTomorrow {
+  background-color: rgb(59, 64, 87);
+  border-top-right-radius: 0.75rem;
+  border-end-end-radius: 0.75rem;
+}
+.dateAfterTomorrow {
+  background-color: rgb(45, 48, 61);
+  border-top-right-radius: 0.75rem;
+}
